@@ -21,14 +21,14 @@ namespace TestProject1
 
          int ageIn20Years = age + 20;
 
-         Console.WriteLine("Your details are as follows: ");
          Console.WriteLine("Your details are as follows:");
          Console.WriteLine($"\t- First Name: {firstName}");
          Console.WriteLine($"\t- Last Name: {lastName}");
          Console.WriteLine($"\t- Gender: {gender}");
          Console.WriteLine($"You will be {ageIn20Years} years old in 20 years!");
 
-         
+         Console.ReadKey();
+
         }
     }
 }
