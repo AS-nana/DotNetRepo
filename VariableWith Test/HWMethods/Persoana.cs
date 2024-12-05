@@ -7,7 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace VariableWith_Test.HWMethods
-{
+{ //Static class attributes that store the person’s details: First name, Last name, Age, Gender.
+ //A method that computes the age of the user + X years, where X is parameter
     internal class Persoana
     {
 
