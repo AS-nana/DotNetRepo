@@ -42,8 +42,6 @@ namespace AutomationPJ1
 
             IWebElement SubmitButton = driver.FindElement(By.Id("submit"));
             SubmitButton.Click();
-        }
-
-      
+        }      
     }
 }
