@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -30,11 +31,11 @@ namespace VariableWith_Test.StructuriAlternative
 
         public void CompareDigits(int x)
         {
-            if (x<5)
+            if (x < 5)
             {
                 Console.WriteLine($"Numarul {x} este mai mic decat 5");
-             }
-            else if(x > 5)
+            }
+            else if (x > 5)
             {
                 Console.WriteLine($"Numarul {x} este mai mare decat 5");
             }
@@ -47,13 +48,13 @@ namespace VariableWith_Test.StructuriAlternative
 
         public void Verificaremasina(string masina)
         {
-            switch (masina) 
+            switch (masina)
             {
                 case "Toyota":
                     Console.WriteLine("Este disponibil Toyota");
                     break;
                 case "Suzuki":
-                     Console.WriteLine("Este disponibil Suzuki");
+                    Console.WriteLine("Este disponibil Suzuki");
                     break;
                 case "BMW":
                     Console.WriteLine("Este disponibil BMW");
@@ -66,4 +67,4 @@ namespace VariableWith_Test.StructuriAlternative
 
         }
 
-    } }
+     } }
